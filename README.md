@@ -77,6 +77,8 @@ msg.error('This is a error message')
 
 It's possible to redirect to a different URL before displaying a message. For example, redirecting from **checklogin** back to a form **login** using **http_referral**, (and displaying an error message) so a user can correct an error - **subjected to pytonik developers**.
 
+![Error Message](https://pytonik.com/public/assets/home/img/Flashbootstrap.gif)
+
 
 ````python 
   #Import Pytonik
@@ -87,6 +89,6 @@ It's possible to redirect to a different URL before displaying a message. For ex
   def checklogin():
     FlashBoostrap.error('Error', 'Cannot login account')
     return app.redirect('/login', True)
-
+  
 ````
 
