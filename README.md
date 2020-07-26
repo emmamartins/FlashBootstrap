@@ -75,19 +75,19 @@ msg.success('This is a success message')
 
 #### Warning
 ````python
-msg.warning('This is a warning message')
+msg.warning('This is a warning ')
 ````
 ![Warning Message](https://pytonik.com/public/assets/home/img/warning.png)
 
 #### Error
 ````python
-msg.error('This is a error message')
+msg.error('This is a error')
 ````
 ![Error Message](https://pytonik.com/public/assets/home/img/error.png)
 
 ### Redirect
 
-It's possible to redirect to a different URL before displaying a message. For example, redirecting from **checklogin** back to a form **login** using **http_referral**, (and displaying an error message) so a user can correct an error - **subjected to pytonik developers**.
+It's possible to redirect to a different URL before displaying a message. For example, redirecting from **checklogin** back to a form **login**, (and displaying an error message) so a user can correct an error - **subjected to pytonik developers**.
 
 ![Error Message](https://pytonik.com/public/assets/home/img/Flashbootstrap.gif)
 
