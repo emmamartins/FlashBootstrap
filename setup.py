@@ -9,7 +9,7 @@ with open("README.md", "r") as fd:
 setup(
     name=Version.NAME,
     version=Version.VERSION_TEXT + Version.EDITION,
-    description='NStore messages in session data until they are retrieved. Bootstrap compatibility, sticky messages, and more.',
+    description='Store Flash messages in session data until they are retrieved. Bootstrap compatibility, sticky messages, and more.',
     url=Version.URL,
     author='Emmanuel Essien',
     author_email='emmaessiensp@gmail.com',
