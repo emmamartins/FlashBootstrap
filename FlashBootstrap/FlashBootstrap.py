@@ -1,4 +1,10 @@
-
+###
+# Author : Emmanuel Essien
+# Author : emmaessiensp@gmail.com
+# Maintainer By: Emmanuel Essien
+# Maintainer Email: emmaessiensp@gmail.com
+# Created by Betacodings on 26 July 2020.
+###
 
 from pytonik.Flash import Flash
 
