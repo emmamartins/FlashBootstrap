@@ -19,7 +19,7 @@ else:
 VERSION_EXTRA = ''
 LICENSE = 'GPL3'
 EDITION = ''  # Added in package names, after the version
-KEYWORDS = "mvc, oop, module, python, framework, flash, message, web, app, pytonik, web development"
+KEYWORDS = "flash message, boostrap flash, bootstrap pytonik,  mvc, oop, module, python, framework, flash, message, web, app, pytonik, web development"
 
 PYVERSION_MA = sys.version_info.major
 PYVERSION_MI = sys.version_info.minor

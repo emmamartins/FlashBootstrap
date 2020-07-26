@@ -13,11 +13,11 @@ class FlashBootstrap:
     def __init__(self, *args, **kwargs):
         return None
 
-    def message(self, message, key='flash'):
-        return Flash.message(message, key)
+    def message(self, message, showin="", key='flash'):
+        return Flash.message(message=message, showin=showin, key=key)
 
     @staticmethod
-    def error(title="", description="", dismissible=True, key='flash'):
+    def error(description="", title="",  dismissible=True, key='flash'):
         title = "<strong>{title}</strong>".format(title=title) if title != "" else ""
         dismissible = """<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 	    """if dismissible == True else "" 
@@ -26,10 +26,10 @@ class FlashBootstrap:
         {title}{description}
         </div>""".format(title=title, description=description, dismissible=dismissible)
         
-        return Flash.message(result, key)
+        return Flash.message(message=result, showin="", key=key)
 
     @staticmethod
-    def warning(title="", description="", dismissible=True, key='flash'):
+    def warning(description="", title="",  dismissible=True, key='flash'):
         title = "<strong>{title}</strong>".format(title=title) if title != "" else ""
         dismissible = """<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 	    """if dismissible == True else "" 
@@ -37,10 +37,10 @@ class FlashBootstrap:
         {dismissible}
         {title}{description}
         </div>""".format(title=title, description=description, dismissible=dismissible)
-        return Flash.message(result, key)
+        return Flash.message(message=result, showin="", key=key)
     
     @staticmethod
-    def success(title="", description="", dismissible=True, key='flash'):
+    def success(description="", title="",  dismissible=True, key='flash'):
         title = "<strong>{title}</strong>".format(title=title) if title != "" else ""
         dismissible = """<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 	    """if dismissible == True else "" 
@@ -49,10 +49,10 @@ class FlashBootstrap:
         {title}{description}
         </div>""".format(title=title, description=description, dismissible=dismissible)
 
-        return Flash.message(result, key)
+        return Flash.message(message=result, showin="", key=key)
 
     @staticmethod
-    def info(title="", description="", dismissible=True, key='flash'):
+    def info(description="", title="",  dismissible=True, key='flash'):
         title = "<strong>{title}</strong>".format(title=title) if title != "" else ""
         dismissible = """<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 	    """if dismissible == True else "" 
@@ -61,7 +61,7 @@ class FlashBootstrap:
         {title}{description}
         </div>""".format(title=title, description=description, dismissible=dismissible)
         
-        return Flash.message(result, key)
+        return Flash.message(message=result, showin="", key=key)
 
     @staticmethod
     def display(key='flash'):
