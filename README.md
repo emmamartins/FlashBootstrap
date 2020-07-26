@@ -95,11 +95,11 @@ It's possible to redirect to a different URL before displaying a message. For ex
 ````python 
   #Import Pytonik
   from pytonik.Web import app
-  #Import FlashBoostrap
-  from FlashBoostrap.FlashBoostrap import *
+  #Import FlashBootstrap
+  from FlashBootstrap.FlashBootstrap import *
 
   def checklogin():
-    FlashBoostrap.error('Cannot login account')
+    FlashBootstrap.error('Cannot login account')
     return app.redirect('/login', True)
   
 ````
