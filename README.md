@@ -114,3 +114,18 @@ It is possible to redirect to a different URL before displaying a message. For e
   
 ````
 
+# Author
+
+👤 **Raphael Essien**
+
+- Github: [Raphael Essien](https://github.com/emmamartins)
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
