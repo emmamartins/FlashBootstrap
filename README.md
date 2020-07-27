@@ -46,8 +46,8 @@ msg = FlashBootstrap
 #Add messages With Bootstrap
 msg.info('This is an info message')
 msg.success('This is a success message')
-msg.warning('This is a warning message')
-msg.error('This is an error message')
+msg.warning('This is a warning ')
+msg.error('This is an error ')
 
 #Add messages Without Bootstrap
 msg.message('This is an info message')
@@ -55,6 +55,12 @@ msg.message('This is an info message')
 
 #Wherever you want to display the messages simply call:
 msg.display()
+
+
+
+#Wherever you want to clear or unset the messages simply call:
+msg.clear()
+
 ````
 
 ### Message Types
