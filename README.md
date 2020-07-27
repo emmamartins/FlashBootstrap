@@ -1,32 +1,36 @@
 # Pytonik Bootstrap Flash Message
 
-Store messages in session data until they are retrieved. Bootstrap compatibility, sticky messages, and more
+**Pytonik Bootstrap Flash Message** helps you store messages in session data until they are retrieved. Bootstrap compatibility, sticky messages, and more
 
-## Installation
+## Installation Guide
 
-### With Pip
+### Step 1:
+You can simply install the module into your pytonik application using any of the methods below.
 
-````
-pip install FlashBootstrap
-````
+#### With Pip
+~~~bash
+  pip install FlashBootstrap
+~~~
 
-### With Git
-````
+#### With Git
+~~~bash
 git clone https://github.com/emmamartins/FlashBootstrap/
-````
+~~~
 
-### Import the Module:
+### Step 2:
+Import the module using either of the following method
 
-````python
+~~~python
 from FlashBootstrap.FlashBootstrap import FlashBootstrap
-````
+~~~
+
 or
 
 ````python
 from FlashBootstrap.FlashBootstrap import *
 ````
 
-### Defualt Parameter 
+### Step 3: Default Parameter 
 
 ````
 description=""
@@ -38,7 +42,7 @@ key='flash'
 
 ## Basic Usage
 
-````python
+~~~python
 
 #Instantiate the class
 msg = FlashBootstrap
@@ -61,7 +65,7 @@ msg.display()
 #Wherever you want to clear or unset the messages simply call:
 msg.clear()
 
-````
+~~~
 
 ### Message Types
 
@@ -93,7 +97,7 @@ msg.error('This is a error')
 
 ### Redirect
 
-It's possible to redirect to a different URL before displaying a message. For example, redirecting from **checklogin** back to a form **login**, (and displaying an error message) so a user can correct an error - **subjected to pytonik developers**.
+It is possible to redirect to a different URL before displaying a message. For example, redirecting from **checklogin** back to a form **login**, (and displaying an error message) so a user can correct an error - **subjected to pytonik developers**.
 
 ![Error Message](https://pytonik.com/public/assets/home/img/Flashbootstrap.gif)
 
