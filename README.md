@@ -32,13 +32,12 @@ from FlashBootstrap.FlashBootstrap import *
 
 ### Step 3: Default Parameter 
 
-````
-description=""
-title=""
-dismissible=True
-key='flash' 
-
-````
+~~~python
+description = ""
+title = ""
+dismissible = True
+key = 'flash' 
+~~~
 
 ## Basic Usage
 
