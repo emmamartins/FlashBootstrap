@@ -64,6 +64,10 @@ msg.display()
 #Wherever you want to clear or unset the messages simply call:
 msg.clear()
 
+
+#Wherever you want to redirect to
+msg.redirect('/location')
+
 ~~~
 
 ### Message Types
@@ -100,6 +104,18 @@ It is possible to redirect to a different URL before displaying a message. For e
 
 ![Error Message](https://pytonik.com/public/assets/home/img/Flashbootstrap.gif)
 
+````python 
+  #Import FlashBootstrap
+  from FlashBootstrap.FlashBootstrap import *
+
+  def checklogin():
+    FlashBootstrap.error('Cannot login account')
+    return FlashBootstrap.redirect('/login', True)
+  
+````
+
+
+### Alternative 
 
 ````python 
   #Import Pytonik

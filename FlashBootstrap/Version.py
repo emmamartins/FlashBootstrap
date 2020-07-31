@@ -9,7 +9,7 @@
 
 import sys
 
-VERSION = (1, 0, 'b', 1)
+VERSION = (1, 0, '', 0)
 
 if VERSION[2] and VERSION[3]:
     VERSION_TEXT = '{0}.{1}.{2}{3}'.format(*VERSION)

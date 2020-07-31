@@ -7,6 +7,7 @@
 ###
 
 from pytonik.Flash import Flash
+from pytonik.App import App
 
 class FlashBootstrap:
 
@@ -75,3 +76,7 @@ class FlashBootstrap:
     @staticmethod
     def clear(key='flash'):
         return Flash.clear(key)
+
+    @staticmethod
+    def redirect(location='/', link=True, code=307):
+        return App().redirect(location=location, link=link, code=code)
