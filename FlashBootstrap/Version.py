@@ -14,7 +14,7 @@ VERSION = (1, 0, '', 0)
 if VERSION[2] and VERSION[3]:
     VERSION_TEXT = '{0}.{1}.{2}{3}'.format(*VERSION)
 else:
-    VERSION_TEXT = '{0}.{1}'.format(*VERSION[0:1])
+    VERSION_TEXT = '{0}.{1}'.format(*VERSION[0:2])
 
 VERSION_EXTRA = ''
 LICENSE = 'GPL3'
